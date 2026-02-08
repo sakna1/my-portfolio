@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakna Perera | Software Engineer</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="selection:bg-blue-500/30">
+
+    <nav class="fixed w-full z-50 bg-slate-950/80 backdrop-blur-xl border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-extrabold tracking-tighter text-white">SAKNA PERERA<span class="text-blue-500">.</span>P</span>
+            <div class="space-x-8 hidden md:flex font-semibold text-[11px] uppercase tracking-[0.2em] text-slate-400">
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#experience" class="hover:text-blue-400 transition">Experience</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+                <a href="#contact" class="text-white border border-white/20 px-4 py-2 rounded-full hover:bg-white hover:text-black transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-48 pb-32 px-6 relative overflow-hidden">
+        <div class="hero-glow"></div>
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16 relative">
+            <div class="flex-1" data-aos="fade-up">
+                <div class="mono text-blue-400 text-sm mb-4 tracking-widest uppercase">/ Available for Innovation</div>
+                <h1 class="text-6xl md:text-8xl font-black mb-8 leading-[0.9] text-white">
+                    Software <br><span class="text-gradient">Engineer.</span>
+                </h1>
+                <p class="text-xl text-slate-400 mb-10 max-w-lg leading-relaxed font-light">
+                    Specializing in <span class="text-white font-semibold">.NET and C#</span>. Currently an Associate Software Engineer
+                     at LAUGFS Holdings with an MSc in Software Engineering from Kingston University, supporting the development of robust 
+                     applications leveraging skills in ASP.NET, C#, and MySQL. Previous roles include Software Engineering Trainee and
+                      IT Executive at LAUGFS Holdings, showcasing a strong progression in software development and IT operations within
+                       the organization. Gained foundational experience during an R&D internship at OREL Corporation, contributing to 
+                       projects on smart devices and database connectivity. Certified in Postman API fundamentals, with a focus on 
+                       API integration and testing.
+                </p>
+                <div class="flex items-center gap-6">
+                    <a href="mailto:saknahemini@gmail.com" class="btn-primary">
+                        Start a Conversation
+                    </a>
+                    <div class="flex gap-4">
+                        <a href="https://github.com/sakna1" class="social-icon"><i data-lucide="github"></i></a>
+                        <a href="www.linkedin.com/in/sakna-perera" class="social-icon"><i data-lucide="linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="relative" data-aos="zoom-out">
+                <div class="image-blur-bg"></div>
+                <div class="profile-img-container">
+                    <img src="pic.jpg" alt="Sakna Perera" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 px-6 bg-slate-950">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="mono text-blue-500 text-sm mb-12 uppercase tracking-widest text-center">/ The Stack</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="glass-card p-10 rounded-3xl" data-aos="fade-up">
+                    <i data-lucide="terminal" class="w-8 h-8 text-blue-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4 text-white">Core Backend</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">C#, .NET Core, ASP.NET, Node.js, Python.</p>
+                </div>
+                <div class="glass-card p-10 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+                    <i data-lucide="database" class="w-8 h-8 text-purple-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4 text-white">Data Architecture</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">SQL Server, PostgreSQL, MySQL.</p>
+                </div>
+                <div class="glass-card p-10 rounded-3xl" data-aos="fade-up" data-aos-delay="200">
+                    <i data-lucide="git-branch" class="w-8 h-8 text-emerald-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4 text-white">DevOps & Quality</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Azure DevOps, Git, CI/CD, Agile Scrum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold mb-16 text-white flex items-center gap-4">
+                Selected Works <span class="h-px flex-1 bg-white/10"></span>
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="group relative" data-aos="fade-up">
+                    <div class="project-gradient-bg bg-blue-600"></div>
+                    <div class="relative glass-card p-8 rounded-3xl h-full flex flex-col">
+                        <span class="mono text-[10px] text-blue-400 mb-4 uppercase">R&D / IoT Integration</span>
+                        <h4 class="text-2xl font-bold mb-4 text-white">O_CUBE Smart Integration</h4>
+                        <p class="text-slate-400 mb-8 flex-1">
+                            Architected UI and backend logic for smart bulb ecosystems. Integrated PHP APIs to facilitate real-time IoT connectivity.
+                        </p>
+                        <div class="flex gap-3">
+                            <span class="tag">PHP</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-gradient-bg bg-emerald-600"></div>
+                    <div class="relative glass-card p-8 rounded-3xl h-full flex flex-col">
+                        <span class="mono text-[10px] text-emerald-400 mb-4 uppercase">Enterprise / Performance</span>
+                        <h4 class="text-2xl font-bold mb-4 text-white">System Optimization</h4>
+                        <p class="text-slate-400 mb-8 flex-1">
+                            Engineered high-performance modules using ASP.NET Core, successfully reducing system downtime by 20%.
+                        </p>
+                        <div class="flex gap-3">
+                            <span class="tag">.NET Core</span>
+                            <span class="tag">C#</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 px-6 bg-slate-950/50">
+        <div class="max-w-3xl mx-auto">
+            <h3 class="text-3xl font-bold mb-16 text-white text-center">Experience</h3>
+            <div class="space-y-16">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot bg-blue-500 shadow-blue-500/50"></div>
+                    <span class="mono text-xs text-slate-500 mb-2 block tracking-widest uppercase">2024 — Present</span>
+                    <h4 class="text-xl font-bold text-white mb-1">Associate Software Engineer</h4>
+                    <p class="text-blue-400 text-sm mb-6 uppercase tracking-wider">Laugfs Holdings Ltd</p>
+                    <p class="text-slate-400 leading-relaxed mb-4">Leveraging .NET Core to scale enterprise applications while managing full SDLC through Azure DevOps.</p>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot bg-slate-700"></div>
+                    <span class="mono text-xs text-slate-500 mb-2 block tracking-widest uppercase">2022 — 2023</span>
+                    <h4 class="text-xl font-bold text-white mb-1">IT Executive</h4>
+                    <p class="text-slate-500 text-sm mb-6 uppercase tracking-wider">Laugfs Holdings Ltd</p>
+                    <p class="text-slate-400 leading-relaxed">Focused on SLA optimization and telecommunication management to drive operational efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-20 border-t border-white/5">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col items-center text-center">
+            <h2 class="text-4xl font-bold mb-8 text-white">Let's build the future <span class="italic text-slate-500">together.</span></h2>
+            <div class="flex flex-col gap-2 mb-10">
+                <span class="text-blue-400 mono">+94 71 736 5973</span>
+                <span class="text-slate-500">Henegama, Sri Lanka</span>
+            </div>
+            <p class="text-[10px] mono text-slate-700 uppercase tracking-[0.3em]">
+                © 2026 Sakna Perera // All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
